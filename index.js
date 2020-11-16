@@ -19,6 +19,4 @@ function convertRGB(value) {
     return b[20] + "," + b[21] + "," + b[22];
 }
 
-module.exports = {
-    convertRGB,
-};
+module.exports = { convertRGB };
